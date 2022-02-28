@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlackJack" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="210-2101712_big" translatesAutoresizingMaskIntoConstraints="NO" id="j1M-cV-LQX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img069" translatesAutoresizingMaskIntoConstraints="NO" id="QlV-6b-J22">
+                                <rect key="frame" x="20" y="-23" width="181" height="1102"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="TQ4-3G-EGO"/>
+                                    <constraint firstAttribute="height" constant="1102" id="d3a-em-Y7A"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img069" translatesAutoresizingMaskIntoConstraints="NO" id="V0d-UQ-qjz">
+                                <rect key="frame" x="209" y="384" width="194" height="288"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="194" id="62S-bA-dGB"/>
+                                    <constraint firstAttribute="width" constant="194" id="IGS-5y-Xzx"/>
+                                    <constraint firstAttribute="height" constant="288" id="Vit-Tc-s70"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppd-7Y-uXR">
+                                <rect key="frame" x="140" y="758" width="134" height="53"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="IVb-bO-ufb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="     Jugar     ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" name="AccentColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="jugarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RtF-h7-MNH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PonyCasino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6Q-HU-6Gx">
+                                <rect key="frame" x="108" y="90" width="199" height="45"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="l0z-F1-f14"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngwing.com" translatesAutoresizingMaskIntoConstraints="NO" id="YJS-3h-ODc">
+                                <rect key="frame" x="59" y="159" width="296" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="WLy-kT-mkC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V0d-UQ-qjz" secondAttribute="trailing" constant="11" id="1w9-3z-LHv"/>
+                            <constraint firstItem="n6Q-HU-6Gx" firstAttribute="centerX" secondItem="j1M-cV-LQX" secondAttribute="centerX" id="Jt2-lN-czu"/>
+                            <constraint firstItem="QlV-6b-J22" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KQW-tm-Jj4"/>
+                            <constraint firstItem="QlV-6b-J22" firstAttribute="centerY" secondItem="V0d-UQ-qjz" secondAttribute="centerY" id="RFN-Wv-cu6"/>
+                            <constraint firstItem="n6Q-HU-6Gx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="SLw-xA-V0t"/>
+                            <constraint firstItem="YJS-3h-ODc" firstAttribute="top" secondItem="n6Q-HU-6Gx" secondAttribute="bottom" constant="24" id="Th0-u3-Xkx"/>
+                            <constraint firstItem="Ppd-7Y-uXR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="VlS-u7-HXx"/>
+                            <constraint firstItem="Ppd-7Y-uXR" firstAttribute="top" secondItem="V0d-UQ-qjz" secondAttribute="bottom" constant="86" id="ZgR-TP-RFh"/>
+                            <constraint firstItem="YJS-3h-ODc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="aUQ-sQ-Bev"/>
+                            <constraint firstItem="j1M-cV-LQX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="c5N-hj-XLW"/>
+                            <constraint firstItem="j1M-cV-LQX" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="eKT-1c-Y1G"/>
+                            <constraint firstItem="V0d-UQ-qjz" firstAttribute="leading" secondItem="QlV-6b-J22" secondAttribute="trailing" constant="8" symbolic="YES" id="gkT-u0-7aD"/>
+                            <constraint firstItem="j1M-cV-LQX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nQ5-RM-jof"/>
+                            <constraint firstItem="n6Q-HU-6Gx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nbx-zk-DJM"/>
+                            <constraint firstItem="V0d-UQ-qjz" firstAttribute="top" secondItem="YJS-3h-ODc" secondAttribute="bottom" constant="31" id="osK-gi-CWf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ppd-7Y-uXR" secondAttribute="bottom" constant="51" id="tka-eP-sSI"/>
+                            <constraint firstItem="n6Q-HU-6Gx" firstAttribute="centerX" secondItem="YJS-3h-ODc" secondAttribute="centerX" id="voV-DA-2b5"/>
+                            <constraint firstItem="YJS-3h-ODc" firstAttribute="centerX" secondItem="Ppd-7Y-uXR" secondAttribute="centerX" id="y6K-xU-AIP"/>
+                            <constraint firstItem="n6Q-HU-6Gx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="yga-5o-LiU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carta1" destination="QlV-6b-J22" id="N61-SZ-pId"/>
+                        <outlet property="carta2" destination="V0d-UQ-qjz" id="4ic-SS-qm5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="210-2101712_big" width="640" height="960"/>
+        <image name="img069" width="703" height="1102"/>
+        <image name="pngwing.com" width="1470" height="831"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
